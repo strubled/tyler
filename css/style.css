@@ -39,8 +39,12 @@ header {
 }
 
 .header-logo {
-  height: 50px;
+  height: 46px;
   width: auto;
+  background: #1c1c1c;
+  border-radius: 6px;
+  padding: 2px 6px;
+  border: 1px solid #333;
 }
 
 .header-right {
@@ -141,10 +145,10 @@ header {
 }
 
 .hero-logo {
-  width: 260px;
+  width: 160px;
   height: auto;
-  margin-bottom: 2rem;
-  filter: drop-shadow(0 0 40px rgba(196,18,48,0.4));
+  margin-bottom: 1.5rem;
+  filter: drop-shadow(0 0 20px rgba(196,18,48,0.35));
 }
 
 .hero-headline {
