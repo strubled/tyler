@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Get a Free Estimate — Chesapeake Junk and Hauling LLC</title>
+  <meta name="description" content="Request a free junk removal estimate from Chesapeake Junk and Hauling LLC. Send photos and a description — we'll get back to you fast." />
+  <link rel="icon" type="image/png" href="cjh_logo.png" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <a href="index.html">
+    <img src="cjh_logo.png" alt="Chesapeake Junk and Hauling LLC" class="header-logo" />
+  </a>
+  <div class="header-right">
+    <a href="tel:4439455258" class="header-phone">(443) 945-5258</a>
+    <a href="index.html" class="btn btn-outline">Back to Home</a>
+  </div>
+</header>
+
+<!-- ESTIMATE FORM -->
+<div class="estimate-page">
+  <div class="estimate-inner">
+    <p class="section-label">Free Estimate</p>
+    <h1 class="section-title">Tell Us <span>What You've Got</span></h1>
+    <p class="section-sub">Send a few photos and a quick description. We'll get back to you with a fair price — usually the same day.</p>
+
+    <form
+      action="https://formsubmit.co/chesapeakejunk@gmail.com"
+      method="POST"
+      enctype="multipart/form-data"
+      id="estimate-form"
+    >
+      <!-- FormSubmit config -->
+      <input type="hidden" name="_subject" value="New Estimate Request — Chesapeake Junk and Hauling" />
+      <input type="hidden" name="_next" value="thankyou.html" />
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_template" value="table" />
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="name">Your Name *</label>
+          <input type="text" id="name" name="name" required placeholder="John Smith" />
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number *</label>
+          <input type="tel" id="phone" name="phone" required placeholder="(443) 000-0000" />
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address *</label>
+        <input type="email" id="email" name="email" required placeholder="you@example.com" />
+      </div>
+
+      <div class="form-group">
+        <label for="description">Describe Your Job *</label>
+        <textarea id="description" name="description" required placeholder="Tell us what needs to be removed — furniture, appliances, debris, yard waste, etc. The more detail the better!"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label>Photos (Recommended)</label>
+        <div class="file-upload-area" id="upload-area" onclick="document.getElementById('photos').click()">
+          <input type="file" id="photos" name="photos" accept="image/*" multiple />
+          <div class="upload-icon">📷</div>
+          <p class="upload-text">Click to add photos</p>
+          <p class="upload-hint">JPG, PNG — multiple photos OK. The more you send, the better our estimate.</p>
+        </div>
+        <div class="file-list" id="file-list"></div>
+      </div>
+
+      <div class="form-group">
+        <label for="city">City / Town</label>
+        <input type="text" id="city" name="city" placeholder="e.g. Elkton, Bel Air, Perryville..." />
+      </div>
+
+      <div class="form-submit">
+        <button type="submit" class="btn btn-primary btn-lg" style="width:100%;">Send My Estimate Request</button>
+        <p class="form-notice">By submitting you agree to be contacted by Chesapeake Junk and Hauling LLC regarding your request. We never share your information.</p>
+      </div>
+    </form>
+
+    <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border);text-align:center;">
+      <p style="color:var(--gray);margin-bottom:1rem;">Prefer to reach out directly?</p>
+      <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+        <a href="tel:4439455258" class="btn btn-outline">Call (443) 945-5258</a>
+        <a href="sms:4439455258" class="btn btn-outline">Text Us</a>
+        <a href="mailto:chesapeakejunk@gmail.com" class="btn btn-outline">Send Email</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <img src="cjh_logo.png" alt="Chesapeake Junk and Hauling LLC" class="footer-logo" />
+    <div class="footer-info">
+      <p>&copy; 2025 Chesapeake Junk and Hauling LLC</p>
+      <p>Cecil County &amp; Harford County, Maryland</p>
+      <p><a href="tel:4439455258">(443) 945-5258</a> &nbsp;·&nbsp; <a href="mailto:chesapeakejunk@gmail.com">chesapeakejunk@gmail.com</a></p>
+    </div>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#reviews">Reviews</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
