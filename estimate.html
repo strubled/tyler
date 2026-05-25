@@ -32,16 +32,17 @@
     <p class="section-sub">Send a few photos and a quick description. We'll get back to you with a fair price — usually the same day.</p>
 
     <form
-      action="https://api.web3forms.com/submit"
+      name="estimate"
       method="POST"
       enctype="multipart/form-data"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+      action="/thankyou.html"
       id="estimate-form"
     >
-      <!-- Web3Forms config -->
-      <input type="hidden" name="access_key" value="cd4b8e46-e445-4a2e-a17c-2b0cad803505" />
+      <input type="hidden" name="form-name" value="estimate" />
       <input type="hidden" name="subject" value="New Estimate Request — Chesapeake Junk and Hauling" />
-      <input type="hidden" name="from_name" value="Chesapeake Junk and Hauling Website" />
-      <input type="hidden" name="redirect" value="https://chesapeakejunkandhauling.com/thankyou.html" />
+      <p style="display:none;"><label>Don't fill this out: <input name="bot-field" /></label></p>
 
       <div class="form-row">
         <div class="form-group">
@@ -65,14 +66,14 @@
       </div>
 
       <div class="form-group">
-        <label>Photos</label>
-        <a href="sms:4439455258" style="display:flex;align-items:center;gap:1.25rem;padding:1.25rem 1.5rem;background:var(--dark);border:2px dashed var(--border);border-radius:8px;text-decoration:none;transition:border-color 0.2s;" onmouseover="this.style.borderColor='var(--red)'" onmouseout="this.style.borderColor='var(--border)'">
-          <span style="font-size:2rem;">📱</span>
-          <div>
-            <p style="font-weight:700;color:var(--white);margin-bottom:0.2rem;">Text your photos to (443) 945-5258</p>
-            <p style="color:var(--gray);font-size:0.85rem;">Tap to open your messages app — the more photos the better!</p>
-          </div>
-        </a>
+        <label>Photos (Recommended)</label>
+        <div class="file-upload-area" id="upload-area" onclick="document.getElementById('photos').click()">
+          <input type="file" id="photos" name="photos" accept="image/*" multiple />
+          <div class="upload-icon">📷</div>
+          <p class="upload-text">Click to add photos</p>
+          <p class="upload-hint">JPG, PNG — multiple photos OK. The more you send, the better our estimate.</p>
+        </div>
+        <div class="file-list" id="file-list"></div>
       </div>
 
       <div class="form-group">
