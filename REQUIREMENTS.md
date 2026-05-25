@@ -16,17 +16,21 @@
 ## Contact Information
 
 - **Phone:** (443) 945-5258
-- **Email:** TBD (placeholder: tyler@chesapeakejunkandhauling.com — confirm with owner)
+- **Email:** TBD — owner will use a general email address (confirm before launch)
 - Both must be prominently displayed on the site (header, footer, contact section)
 
 ---
 
 ## Services
 
+Residential and commercial customers. Services include:
+
 - Junk removal
 - Hauling
-
-> **TODO:** Expand with full list of specific services (e.g. furniture removal, appliance pickup, yard debris, estate cleanouts, construction debris, etc.)
+- Furniture removal
+- Appliance removal
+- Debris removal
+- Yard waste removal
 
 ---
 
@@ -48,27 +52,34 @@ Customers can also **call or email** with general questions.
 
 ## Pages / Structure
 
-> **TODO:** Confirm whether this is a single-page scrolling site or multi-page. Single-page is recommended for a local service business — keeps things simple and conversion-focused.
+**Structure:** Single-page scrolling site with one dedicated sub-page for estimate requests.
 
-Suggested sections (all on one page):
+### Main page sections (scrollable):
 
-1. **Hero** — Bold headline, logo, phone number, primary CTA ("Get a Free Estimate")
+1. **Hero** — Bold headline, logo, phone number, primary CTA button ("Get a Free Estimate")
 2. **Services** — What we haul / remove
 3. **How It Works** — Simple 3-step process (Submit photos → Get a quote → We haul it away)
 4. **Service Area** — Cecil County, MD and surrounding areas (map optional)
 5. **About Us** — Brief company story / who we are
 6. **Gallery** — Before/after photos (if available)
 7. **Reviews / Testimonials** — Google reviews or manual quotes
-8. **Contact / Estimate Request** — Phone, email, text prompt, and/or upload form
+8. **Contact** — Phone number, email, and link to estimate page
 9. **Footer** — Logo, contact info, copyright
+
+### Estimate Request page (`/estimate` or `/get-a-quote`):
+
+- Photo upload field (multiple photos)
+- Description / notes text field
+- Name, phone, email fields
+- Submit button
+- On submit: sends everything to the business email (and/or a text notification)
 
 ---
 
 ## Pricing
 
-> **TODO:** Confirm whether to show any pricing. Options:
-> - No pricing shown — all jobs are custom-quoted (recommended for this type of business)
-> - Show starting price ranges (e.g. "Starting at $X")
+- **No pricing shown on the site** — all jobs are custom-quoted
+- Customers request a free estimate by submitting photos and a description
 
 ---
 
@@ -77,11 +88,8 @@ Suggested sections (all on one page):
 - **Logo:** Provided (white truck towing a loaded dump trailer, Maryland flag background, script "Chesapeake" wordmark in red/yellow/white — see logo file)
 - **Logo colors:** Black, red, gold/yellow, white
 - **Tone:** Bold, local, trustworthy, hardworking
-
-> **TODO:** Confirm color scheme direction:
-> - Option A: Dark/bold — black backgrounds, red and gold accents (matches logo)
-> - Option B: Clean/professional — white/light gray with red and gold accents
-> - Option C: Match competitor site style (rubbishmaryland.com)
+- **Tagline / copy inspiration (from Google listing):** "Fast, affordable junk removal and hauling for residential and commercial customers. Reliable service, fair pricing, and professional results every time."
+- **Color scheme:** Match the logo — dark/bold with black backgrounds, red and gold/yellow accents, white text
 
 ---
 
@@ -96,7 +104,7 @@ Suggested sections (all on one page):
 
 > **TODO:** Answer these before development begins.
 
-- [ ] Does the business already have a domain name? If not, what domain do they want?
+- [ ] Domain name — **not yet registered.** Need to pick and purchase one (e.g. chesapeakejunkandhauling.com)
 - [ ] Does the business have existing hosting? (e.g. GoDaddy, Bluehost, Squarespace, etc.)
 - [ ] Should the site be built on a CMS (e.g. WordPress, Squarespace, Webflow) or as a custom-coded site?
 - [ ] Does the site need to integrate with any booking or scheduling tools?
@@ -107,12 +115,12 @@ Suggested sections (all on one page):
 
 ## Open Questions / TODOs
 
-- [ ] Confirm final email address
-- [ ] Confirm full list of services offered
+- [ ] Confirm final email address (owner using a general email — TBD)
+- [x] Confirm full list of services — **furniture, appliances, debris, yard waste, general junk (residential & commercial)**
 - [ ] Confirm service area (Cecil County only, or neighboring counties too?)
-- [ ] Confirm pricing strategy (no prices vs. starting prices)
-- [ ] Confirm visual style / color scheme direction
-- [ ] Confirm single-page vs. multi-page structure
+- [x] Confirm pricing strategy — **custom quotes only, no prices shown**
+- [x] Confirm visual style / color scheme — **dark/bold, match the logo**
+- [x] Structure — **single-page site + separate `/estimate` page for photo/description submissions**
 - [ ] Confirm domain name and hosting situation
 - [ ] Decide on estimate submission method (form with photo upload vs. prompt to text/email)
 - [ ] Gather before/after photos for gallery section
