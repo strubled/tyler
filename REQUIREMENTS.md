@@ -17,7 +17,7 @@
 ## Contact Information
 
 - **Phone:** (443) 945-5258
-- **Email:** TBD — owner will use a general email address (confirm before launch)
+- **Email:** chesapeakejunk@gmail.com
 - Both must be prominently displayed on the site (header, footer, contact section)
 
 ---
