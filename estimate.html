@@ -65,14 +65,14 @@
       </div>
 
       <div class="form-group">
-        <label>Photos (Recommended)</label>
-        <div class="file-upload-area" id="upload-area" onclick="document.getElementById('photos').click()">
-          <input type="file" id="photos" name="photos" accept="image/*" multiple />
-          <div class="upload-icon">📷</div>
-          <p class="upload-text">Click to add photos</p>
-          <p class="upload-hint">JPG, PNG — multiple photos OK. The more you send, the better our estimate.</p>
-        </div>
-        <div class="file-list" id="file-list"></div>
+        <label>Photos</label>
+        <a href="sms:4439455258" style="display:flex;align-items:center;gap:1.25rem;padding:1.25rem 1.5rem;background:var(--dark);border:2px dashed var(--border);border-radius:8px;text-decoration:none;transition:border-color 0.2s;" onmouseover="this.style.borderColor='var(--red)'" onmouseout="this.style.borderColor='var(--border)'">
+          <span style="font-size:2rem;">📱</span>
+          <div>
+            <p style="font-weight:700;color:var(--white);margin-bottom:0.2rem;">Text your photos to (443) 945-5258</p>
+            <p style="color:var(--gray);font-size:0.85rem;">Tap to open your messages app — the more photos the better!</p>
+          </div>
+        </a>
       </div>
 
       <div class="form-group">
