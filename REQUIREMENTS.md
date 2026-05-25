@@ -9,7 +9,8 @@
 - **Business name:** Chesapeake Junk and Hauling, LLC
 - **Google Business listing:** Chesapeake Junk and Hauling LLC
 - **Type:** Local junk removal and hauling service
-- **Primary service area:** Cecil County, MD (and surrounding areas TBD)
+- **Primary service area:** Cecil County, MD and Harford County, MD (confirm if others should be listed)
+- **Owner/operator:** Tyler
 
 ---
 
@@ -73,6 +74,45 @@ Customers can also **call or email** with general questions.
 - Name, phone, email fields
 - Submit button
 - On submit: sends everything to the business email (and/or a text notification)
+
+---
+
+## Customer Reviews
+
+All reviews are 5-star. 10 reviews total. Key themes to highlight on the site:
+- **Fast response** — often same-day or next-day
+- **Fair / affordable pricing**
+- **Friendly, professional, and easy to work with**
+- **Quick and efficient**
+
+### Review text (for testimonials section):
+
+> "Tyler was so quick to respond! I had very little time (less than 24hrs) to get some junk out of the house I sold. He got right back to me, got the job done timely. Very nice to work with, he made my worries go away! Highly recommend, only sorry I can't give more than 5 stars!"
+> — Alex B.
+
+> "Great customer service and fair pricing for junk removal in Cecil County or Harford County. Definitely would recommend!"
+> — Lee S.
+
+> "Highly recommend this company for many reasons. Came out in a reasonable time to remove a build up of items we had thrown behind our shed. Prices were very affordable and made us not have to stress on getting it taken care of with our busy [schedules]."
+> — Jonathan H.
+
+> "Above and beyond service, fair prices, and friendly staff. Punctual and efficient, wouldn't use anybody else."
+> — Kevin S.
+
+> "Very professional, polite, and gets the job done right! Highly recommend to anyone needing their junk removed!"
+> — Allen G.
+
+> "Outstanding service. Was able to pick up next day at a great price. Job was completed quickly!"
+> — Ron S.
+
+> "I found Tyler's information this morning and in less than 45 minutes of texting him he was at my property getting right to work! He's a wholesome family man who was professional, timely, courteous and kind!"
+> — IAH
+
+> "I highly recommend Chesapeake junk and hauling. Fairly priced and hard working."
+> — Daniel M.
+
+> "Tyler is the man!! I can't say enough good things about him and his work ethic! I needed stuff gone fast, and he obviously came through!"
+> — Seth P.
 
 ---
 
